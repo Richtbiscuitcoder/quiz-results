@@ -7,7 +7,7 @@ html, body  {
 }
 
 .container {
-    background-color: lightslategray;
+    background-color: lightgray;
     width: 100vw;
     height: 100vh;
 }
@@ -23,16 +23,19 @@ html, body  {
     width:400px;
     border-radius: 12px;  
     text-align:center;
+    box-shadow:  1px 10px 3px rgb(122, 121, 121);
 }
 
 div.react-box {
     background-color: rgb(243, 191, 191);
     width: 300px;
     border-radius: 15px;
-    display: flex;
     margin-left: 15%;
-    text-align: center;
-    right: 10%;;
+    right: 10%;
+     display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 10px;
 }
 
 .reaction {
@@ -41,23 +44,68 @@ div.react-box {
  
 }
 
-div .react-result{
+div.memory-box {
+    background-color: rgb(248, 255, 207);
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 15%;
+    right: 10%;
     display: flex;
-    justify-content: flex-end;
-   text-align: right;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.memory {
+    color: rgb(255, 230, 0);
+}
+
+div.verbal-box {
+    background-color: rgb(181, 247, 214);
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 15%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.verbal {
+    color:rgb(41, 206, 41);
+}
+
+div.visual-box {
+    background-color: rgb(155, 176, 247);
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 15%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.visual {
+    color:rgb(39, 39, 218);
 }
 
 .continue-btn {
-    width: 100px;
-    height: 25px;
-    background-color: darkblue;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(33, 33, 82);
     color: white;
     border-radius: 15px;
-    right: 100px;
+    margin-left: 20px;
 }
 
 .card-purple {
-    background-color: rgb(48, 47, 141);
+    background: linear-gradient(#9e33f7, #721efa);
     box-shadow: 1px grey;
     position: absolute;
     top: 30%;
@@ -68,4 +116,24 @@ div .react-result{
     border-radius: 12px;   
     text-align: center;
     color: white;
+    box-shadow: 1px 10px 3px rgb(122, 121, 121);
+
+}
+
+.card-purple p {
+    font-size: larger;
+    padding: 10px;
+}
+
+.circle {
+    background: linear-gradient(#721efa,#9e33f7);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.bold {
+    font-size: 70px;
+    top: 50%; 
 }
