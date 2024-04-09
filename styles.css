@@ -23,7 +23,6 @@ html, body  {
     width:400px;
     border-radius: 12px;  
     text-align:center;
-    box-shadow:  1px 10px 3px rgb(202, 202, 202);
 }
 
 h1 {
@@ -152,3 +151,4 @@ div.visual-box {
     font-size: 40px;
     top: 50%; 
 }
+
