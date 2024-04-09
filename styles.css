@@ -23,6 +23,7 @@ html, body  {
     width:400px;
     border-radius: 12px;  
     text-align:center;
+    box-shadow: 1px 10px 3px rgb(201, 198, 198);
 }
 
 h1 {
@@ -97,10 +98,14 @@ div.visual-box {
     color: gray;
 }
 
+.result-color {
+    color: black;
+}
+
 .continue-btn {
     width: 300px;
     height: 40px;
-    background-color: rgb(33, 33, 82);
+    background-color: rgb(49, 49, 97);
     color: white;
     border-radius: 15px;
     margin-left: 20px;
