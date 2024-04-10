@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-html, body  {
-    font-family: Arial, Helvetica, sans-serif;
+.hanken-grotesk-app  {
+    font-family: "Hanken Grotesk", sans-serif;
+    
 }
 
 .container {
@@ -110,6 +111,7 @@ div.visual-box {
     border-radius: 15px;
     margin-left: 20px;
     margin-top: 20px;
+    border: none;
 }
 
 .continue-btn:hover {
@@ -118,7 +120,7 @@ div.visual-box {
 }
 
 .card-purple {
-    background: linear-gradient(#6b44d6, #2a1468);
+    background: linear-gradient(#6541fd, #4334f1);
     box-shadow: 1px grey;
     position: absolute;
     top: 30%;
@@ -139,7 +141,7 @@ div.visual-box {
 }
 
 .circle {
-    background: linear-gradient(#2a1468,#6b44d6);
+    background: linear-gradient(#4d23cd,#4834ed);
     border-radius: 50%;
     height: 140px;
     width: 140px;
